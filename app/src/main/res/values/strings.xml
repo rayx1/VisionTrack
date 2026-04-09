@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Person Counter</string>
+
+    <!-- Count badge labels -->
+    <string name="label_faces">faces</string>
+    <string name="label_persons">persons</string>
+    <string name="label_raised">raised</string>
+
+    <!-- Permission -->
+    <string name="permission_rationale">Camera permission is required to detect and count persons in real-time.</string>
+    <string name="btn_grant_permission">Grant Camera Permission</string>
+
+    <!-- Settings screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_threshold_title">Detection Threshold</string>
+    <string name="settings_camera_title">Camera Source</string>
+    <string name="settings_ip_title">IP Camera</string>
+    <string name="settings_ip_auth">Credentials (leave blank if not required)</string>
+    <string name="camera_back">Back Camera</string>
+    <string name="camera_front">Front Camera</string>
+    <string name="camera_ip">IP Camera (RTSP)</string>
+    <string name="hint_ip_url">rtsp://192.168.1.1:554/stream</string>
+    <string name="hint_ip_user">Username (optional)</string>
+    <string name="hint_ip_pass">Password (optional)</string>
+    <string name="btn_save">Save Settings</string>
+
+    <!-- Errors -->
+    <string name="error_no_ip_url">No IP camera URL configured. Open Settings to add one.</string>
+
+    <!-- Accessibility -->
+    <string name="cd_settings">Open settings</string>
+
+    <!-- About -->
+    <string name="developed_by">Developed by MITS Bhubaneswar</string>
+</resources>
